@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("Code clone"){
             steps{
-                echo "Cloning the repository..."
+                echo "Cloning the repo"
                 git url:"https://github.com/parth6768/node-todo-project-jenkins-1.git", branch:"master"
                 echo "Repository cloned successfully."
             }
