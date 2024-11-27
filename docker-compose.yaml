@@ -2,8 +2,9 @@ version: '3.9'
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile  # Specify the Dockerfile name if it's not named Dockerfile
+    image: parth6768/node-app:latest
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile  # Specify the Dockerfile name if it's not named Dockerfile
     ports:
       - "8000:8000"
